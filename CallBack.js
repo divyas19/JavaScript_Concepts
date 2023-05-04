@@ -42,7 +42,7 @@ function add(name,callbackFunc)
 setTimeout(function()
 {
     arr.push(name);
-    display();
+    callbackFunc();
 },800);
 }
 
